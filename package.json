@@ -1,0 +1,16 @@
+{
+  "name": "Workouts",
+  "version": "1.0.0",
+  "description": "CS290 Final Project: Database Interactions & UI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tida Sooreechine",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.2",
+    "express-handlebars": "^2.0.1",
+    "mysql": "^2.8.0"
+  }
+}

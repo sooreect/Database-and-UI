@@ -1,0 +1,42 @@
+<h1>Workout Tracker</h1>
+<p>
+<form id="inputs">
+  <fieldset>
+    <legend><h3>Enter your workout:</h3></legend>
+    <p>Name
+    <br><input type="text" name="name" id="name">
+    <p>Reps
+    <br><input type="number" name="reps" id="reps">
+    <p>Weight
+    <br><input type="number" name="weight" id="weight">
+    <p>Units
+    <br><select name="lbs" id="lbs"> 
+      <option value="1">lbs</option>
+      <option value="0">kg</option>
+    </select>
+    <p>Date
+    <br><input type="date" name="date" id="date"><p>
+    <p><input type="submit" id="submit" value="Add Workout">
+  </fieldset>
+</form>
+
+<p>
+<h3>Workouts Log</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Reps</th>
+      <th>Weight</th>
+      <th>Units</th>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody id="tbody">
+  </tbody>
+</table>
+
+
+<script src="/script.js"></script>

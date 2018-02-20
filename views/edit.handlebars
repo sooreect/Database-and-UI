@@ -1,0 +1,23 @@
+<h1>Workout Tracker</h1>
+<p>
+<form id="edits">
+  <fieldset>
+    <legend><h3>Edit your workout:</h3></legend>
+    <p>Name
+    <br><input type="text" name="name" id="name" value={{this.name}}>
+    <p>Reps
+    <br><input type="number" name="reps" id="reps" value={{this.reps}}>
+    <p>Weight
+    <br><input type="number" name="weight" id="weight" value={{this.weight}}>
+    <p>Units
+    <br><select name="lbs" id="lbs" value={{this.lbs}}> 
+      <option value="1">lbs</option>
+      <option value="0">kg</option>
+    </select>
+    <p>Date
+    <br><input type="date" name="date" id="date" value={{this.date}}><p>
+    <p><input type="submit" id="save" value="Save">
+  </fieldset>
+</form>
+
+
